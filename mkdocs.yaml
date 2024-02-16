@@ -89,14 +89,14 @@ extra_javascript:
 
 nav:
   - "封面": index.md
-  - "1 写在前面&概述": 1.x.md
-  - "2 指令 | Instructions": 2.x.md
-  - "3 算术 | Arithmetic": 3.x.md
-  - "4 处理器 | Processor": 4.x.md
-  - "5 缓存 | Cache": 5.x.md
-  - "6 输入/输出 | I/O": 6.x.md
+  - 1-x.md
+  - 2-x.md
+  - 3-x.md
+  - 4-x.md
+  - 5-x.md
+  - 6-x.md
   - 附录:
-    - "A 历年卷": A.x.md
+    - "A 历年卷": A-exams.md
 
 # ======================================== <<<
 
