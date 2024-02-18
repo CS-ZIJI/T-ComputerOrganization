@@ -22,7 +22,7 @@ theme:
     repo: fontawesome/brands/github-alt
     edit: material/pencil
     view: material/eye
-  # custom_dir: overrides # TODO: 请根据指导配置完 Giscus 后再取消注释：https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/
+  custom_dir: overrides # TODO: 请根据指导配置完 Giscus 后再取消注释：https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/
 
 markdown_extensions:
   - toc:
@@ -53,7 +53,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
 
 plugins:
   - git-revision-date-localized:
