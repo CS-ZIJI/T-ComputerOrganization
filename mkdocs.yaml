@@ -9,6 +9,7 @@ theme:
   name: material
   language: zh
   features:
+    - navigation.tabs
     - navigation.indexes
     - navigation.expand
     - navigation.top
@@ -87,14 +88,16 @@ extra_javascript:
 # ======================================== >>>
 
 nav:
-  - "封面": index.md
-  - 1-x.md
-  - 2-x.md
-  - 3-x.md
-  - 4-x.md
-  - 5-x.md
-  - 6-x.md
-  - 附录:
+  - "Home": "https://cs-ziji.github.io/"
+  - "Main":
+    - index.md
+    - 1-x.md
+    - 2-x.md
+    - 3-x.md
+    - 4-x.md
+    - 5-x.md
+    - 6-x.md
+  - "Appendix":
     - "A 历年卷": A-exams.md
 
 # ======================================== <<<
