@@ -9,19 +9,19 @@ cd $workDir
 # ======
 
 # Step 1: clone base repository.
-if [ -d .base_repo ]; then
-    echo "The \`.base_repo\` folder is occupied. Delete this folder and try again!"
-    echo "已存在 \`.base_repo\` 文件夹，请删除该文件夹后重试！"
-    exit 0
-fi
+# if [ -d .base_repo ]; then
+#     echo "The \`.base_repo\` folder is occupied. Delete this folder and try again!"
+#     echo "已存在 \`.base_repo\` 文件夹，请删除该文件夹后重试！"
+#     exit 0
+# fi
 git clone https://github.com/CS-ZIJI/F-MkDocs-Template.git .base_repo
 
 # Step 2: before syncing, storage changes not committed.
-if [ -n "$(git status --porcelain)" ]; then
-    echo "There are uncommitted changes in the current repository. Please commit or stash these changes first!"
-    echo "当前仓库存在未提交的更改，请先提交或者存储这些更改！"
-    exit 0
-fi
+# if [ -n "$(git status --porcelain)" ]; then
+#     echo "There are uncommitted changes in the current repository. Please commit or stash these changes first!"
+#     echo "当前仓库存在未提交的更改，请先提交或者存储这些更改！"
+#     exit 0
+# fi
 
 # Step 3: pack patches according to `.base_commit`.
 baseCommitHash=`cat .base_commit`
